@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 100px;
+}
+
+header {
+  text-align: center;
+  margin: 25px;
+
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+section {
+  /* margin: 0px 100px;
+  padding: 5px 50px 5px 2px; */
+  width: 250px;
+  margin: 0px 50px;
+  padding: 5px 0px 5px 2px;
+  border: dotted 1px black;
+}
