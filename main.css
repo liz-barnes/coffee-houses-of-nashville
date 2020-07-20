@@ -4,7 +4,9 @@
 }
 
 body {
-  margin: 100px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f9f6f2;
+  
 }
 
 /* COLOR SCHEME
@@ -17,7 +19,20 @@ green: #38470b */
 header {
   text-align: center;
   margin: 25px;
+}
 
+h1 {
+  font-family: 'Playfair Display', serif;
+  /* font-family: 'Prata', serif; */
+  font-weight: lighter;
+  color: #38470b;
+  font-size: 4em;
+}
+
+.coffee-container {
+  width: 1050px;
+  border: 5px solid #f1d6ab;
+  margin: auto;
 }
 
 .list {
@@ -29,10 +44,14 @@ header {
 section {
   /* margin: 0px 100px;
   padding: 5px 50px 5px 2px; */
-  width: 250px;
-  margin: 25px 50px;
-  padding: 5px 0px 5px 2px;
-  border: dotted 1px black;
+  width: 300px;
+  margin: 25px 0px;
+  padding: 10px 0px 10px 10px;
+  border: 2px solid #f1d6ab;
+}
+
+.shop {
+  font-weight: bolder;
 }
 
 li {
