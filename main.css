@@ -50,8 +50,16 @@ section {
   border: 2px solid #f1d6ab;
 }
 
+section:hover {
+  background-color: #f1d6ab;
+}
+
 .shop {
-  font-weight: bolder;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
 }
 
 li {
@@ -60,4 +68,9 @@ li {
 
 .address {
   font-style: italic;
+}
+
+img {
+  width: 150px;
+  padding: 5px 0px;
 }
